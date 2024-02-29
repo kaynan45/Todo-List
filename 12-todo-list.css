@@ -13,6 +13,11 @@ body {
     
 }
 
+.todo-grid{
+  grid-template-columns: 200px 150px 100px 100px;
+  column-gap: 8px;
+}
+
 .todo-input-grid {
     margin-bottom: 10px;
     align-items: stretch;

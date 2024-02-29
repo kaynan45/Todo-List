@@ -10,6 +10,7 @@ function renderTodoList() {
     const html = `
     <div>${name}</div>
     <div>${dueDate}</div>
+    <input type = "checkbox" name = "" class = "checkbox">
      <button class="delete-todo-button js-delete-button">delete</button>
     `;
 
